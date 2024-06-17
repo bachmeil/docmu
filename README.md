@@ -2,6 +2,10 @@
 
 This is a modified version of [mu css](https://github.com/BafS/mu). I made a few cosmetic changes, such as using Roboto as the font for the whole document, but the biggest thing is eliminating elements that aren't normally used to display documents. You're unlikely to need to define things such as select or textarea for an html document posted to your personal website.
 
+# Example
+
+You can view an <a href="https://bachmeil.github.io/docmu/test.html">example document here</a>.
+
 # Usage
 
 Download docmu.css from the repo to your computer. Add this at the top of your html file:
