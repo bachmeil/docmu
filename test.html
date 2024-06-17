@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="docmu.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic">
+
+<h1>Intro</h1>
+<p>This is a <i>test document</i>. I hope <b>you</b> like it!</p>
+
+<h2>Links</h2>
+An example <a href="https://bafs.github.io/mu/">of a link</a>.
+
+<h2>Code</h2>
+Some inline code: <code>print("hello world")</code>
+<br><br>
+And a code block:
+<pre><code>print("another hello")
+print("from multiline")
+</code></pre>
+
+<h2>Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Celestial body</th>
+          <th>Angular diameter</th>
+          <th>Relative size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sun</td>
+          <td>31′31″ – 32′33″</td>
+          <td>30–31 times the maximum value for Venus</td>
+        </tr>
+        <tr>
+          <td>Moon</td>
+          <td>29′20″ – 34′6″</td>
+          <td>28–32.5 times the maximum value for Venus</td>
+        </tr>
+        <tr>
+          <td>Helix Nebula</td>
+          <td>about 16′ by 28′</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+
+<h2>Lists</h2>
+
+Unordered:
+
+<ul>
+  <li>Foo</li>
+  <li>Bar</li>
+  <li>Baz</li>
+</ul>
+
+Numbered:
+
+<ol>
+  <li>Foo</li>
+  <li>Bar</li>
+  <li>Baz</li>
+</ol>
+
+<h2>Other Stuff</h2>
+The nice thing about a framework like this is that you can add other pieces as needed, with no worries about any kind of conflicts.
+
+<h3>Math</h3>
+To add MathJax (math) support, put this piece of code at the top of this page:
+<pre><code>&lt;script&gt;
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+&lt;/script&gt;
+&lt;script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"&gt;
+&lt;/script&gt;</pre></code>
+
+<h3>Markdown</h3>
+You might not want to write your own html. You might also wish to avoid having to convert manually from markdown to html using a tool like Pandoc. Add something like <a href="https://github.com/markdown-it/markdown-it?tab=readme-ov-file#usage-examples">markdown-it</a> to enable markdown conversion in the browser. There are many different ways to do that, so you'll need to figure it out on your own.
